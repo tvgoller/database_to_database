@@ -1,0 +1,4 @@
+Driver={SQL Server Native Client 11.0};Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
+SELECT Employees.[First Name] FROM Employees;
+Driver={SQL Server Native Client 11.0};Server=other_server_address;Database=dest_database;Uid=other_username;Pwd=other_password
+insert into dest_table(dest_column_name) values (?)
